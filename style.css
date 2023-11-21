@@ -113,6 +113,7 @@ h1, h2, h3, h4, h5, h6 {
     font-weight: 700;
     margin-top: 2%;
     margin-bottom: 3%;
+    text-align: center;
 }
 
 p {
@@ -357,4 +358,3 @@ button:hover {
     background-color: #fff;
     padding: 2px;
 }
-
