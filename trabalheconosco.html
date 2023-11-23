@@ -38,22 +38,22 @@
     <h2 class="titulo">Formulário de Inscrição</h2>
 
     <label class="label">
-        <input type="text" class="input-bordas" id="nameUser" placeholder="Nome" required>
+        <input type="text" pattern="[A-Za-z\s]" maxlength="35" class="input-bordas" id="nameUser" placeholder="Nome e Sobrenome" required>
         <span class="focus-border"> <i></i> </span>
     </label>
 
     <label class="label">
-        <input type="tel" class="input-bordas" placeholder="(99) 99999-9999" id="telUser" required>
+        <input type="tel" pattern="[0-9\s]" maxlength="11" class="input-bordas" placeholder="(99) 99999-9999" id="telUser" required>
         <span class="focus-border"> <i></i> </span>
     </label>
 
     <label class="label">
-        <input type="text" class="input-bordas" placeholder="exemplo@examplo.com" id="emailUser" required>
+        <input type="text" pattern="[A-Za-z\s]" maxlength="50" class="input-bordas" placeholder="exemplo@examplo.com" id="emailUser" required>
         <span class="focus-border"> <i></i> </span>
     </label>
 
     <label class="label">
-        <input type="text" class="input-bordas" placeholder="Atuação" id="questionUser" required>
+        <input type="text" pattern="[A-Za-z\s]" maxlength="30" class="input-bordas" placeholder="Atuação" id="questionUser" required>
         <span class="focus-border"> <i></i> </span>
     </label>
 
