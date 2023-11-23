@@ -50,6 +50,10 @@ table {
 /* Reset Página */
 
 /* Começo do CSS */
+.add-margin {
+    margin-left: auto;
+}
+
 body {
     background-color: #1460D0;
     background-image: url("images/background.jpg");
@@ -95,8 +99,9 @@ body {
     height: 518px;
 }
 
-.add-margin {
-    margin-left: auto;
+#redes-sociais img {
+    width: 40px;
+    padding-top: 25px;
 }
 
 @media screen and (max-width:475px) {
