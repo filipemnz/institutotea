@@ -91,6 +91,12 @@ h1,h2,h3 {
     margin-top: 3%;
 }
 
+.row a {
+    text-decoration: none;
+    color: black;
+}
+
+
 .fundo-branco {
     background-color: rgba(255, 255, 255, 0.541);
     margin-inline: 10%;
