@@ -8,6 +8,7 @@
         <link rel="shortcut icon" href="images/icon.png" type="image/x-icon">
         <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-T3c6CoIi6uLrA9TneNEoa7RxnatzjcDSCmG1MXxSR1GAsXEV/Dwwykc2MPK8M2HN" crossorigin="anonymous">
         <link rel="stylesheet" href="style.css">
+        <link rel="stylesheet" href="styleform.css">
         <title>Instituto TEA Sergipe</title>
     </head>
 <body>
@@ -33,52 +34,131 @@
 <!--Nav Bar-->
 
 <!--Conteúdo-->
-<div id="corpo">
-    <div id="text">
-    <h2>UniKids: O Mundo Mágico do Conhecimento</h2>
-        <p>Em um vilarejo repleto de cores e risadas, existe uma escola que vai além dos limites da imaginação, transformando o aprendizado em uma jornada mágica e inesquecível. Bem-vindos à UniKids, onde cada dia é uma nova aventura e cada descoberta é um passo rumo ao infinito universo do conhecimento.</p>
-        <p>Era uma vez, em um mundo onde a curiosidade era a chave para portas secretas, a UniKids se destacava como um farol brilhante. Seus corredores eram como caminhos de descobertas, e as salas de aula eram palcos de magia educacional.</p>
-        <p>Na UniKids, os professores eram feiticeiros do saber, transformando fórmulas matemáticas em poções mágicas e histórias em encantamentos literários. Cada criança, com sua individualidade única, era guiada em uma jornada personalizada, estimulando o desenvolvimento de habilidades e talentos.</p>
-        <p>Os espaços da escola eram verdadeiros reinos encantados, onde a arte, a ciência e a brincadeira se entrelaçavam. O jardim botânico era um laboratório ao ar livre, e a biblioteca era um portal para mundos desconhecidos. A cada canto, a UniKids proporcionava experiências que transcendiam os limites do convencional.</p>
-        <p>Agora, convidamos você e sua família a fazerem parte dessa história mágica na UniKids. Estamos com as portas abertas para matrículas, prontos para receber novos aprendizes nesse universo de descobertas. Junte-se a nós, onde o conhecimento é a chave que abre as portas da imaginação, e cada dia é uma oportunidade para aprender, crescer e sonhar.</p>
-    </div>
+<form class="formulario">
 
-    <div id="text">
-    <h2>Matrícula na UniKids</h2>
-        <p>Queridos pais, responsáveis e futuros aprendizes,</p>
-        <p> É com grande entusiasmo que estendemos o convite para fazerem parte da UniKids, a escola onde o aprendizado se transforma em uma jornada mágica e inesquecível. Na UniKids, acreditamos que cada criança é única, com seu potencial especial a ser explorado.</p>
-        <p>Nossa abordagem educacional vai além do convencional, proporcionando experiências que estimulam a curiosidade, a criatividade e o amor pelo conhecimento. Com professores dedicados e espaços encantados, garantimos um ambiente acolhedor e enriquecedor para o desenvolvimento integral de cada aluno.</p>
-        <p> Estamos com as matrículas abertas para o próximo ano letivo, e seria uma honra receber sua família em nossa comunidade educativa. Juntos, vamos construir memórias mágicas e preparar os pequenos para um futuro cheio de realizações.</p>
-        <p> Agende uma visita à UniKids e descubra o mundo encantado que preparamos para seus filhos. Estamos ansiosos para recebê-los e embarcar nessa jornada extraordinária rumo ao saber.</p>
-        <p>Com carinho, Equipe UniKids.</p>
-    </div>
+    <h2 class="titulo">Formulário de Contato</h2>
+
+    <label class="label">
+        <input type="text" class="input-bordas" id="nameUser" placeholder="Nome" required>
+        <span class="focus-border"> <i></i> </span>
+    </label>
+
+    <label class="label">
+        <input type="tel" class="input-bordas" placeholder="Telefone" id="telUser" required>
+        <span class="focus-border"> <i></i> </span>
+    </label>
+
+    <label class="label">
+        <input type="text" class="input-bordas" placeholder="E-mail" id="emailUser" required>
+        <span class="focus-border"> <i></i> </span>
+    </label>
+
+    <label class="label">
+        <input type="text" class="input-bordas" placeholder="Assunto" id="questionUser" required>
+        <span class="focus-border"> <i></i> </span>
+    </label>
+
+    <label class="label">
+        <textarea type="text" id="messageUser" class="input-bordas textarea" rows="4" placeholder="Escreva aqui" required></textarea>
+        <span class="focus-border"> <i></i> </span>
+    </label>
+
+    <button class="button-form borda-inversa" onclick="enviar()">Enviar</button>
+
+</form>
 <!--Conteúdo-->
 
 <!--Rodapé-->
-<footer id="rodape">
-    <div id="mapa">
-        <h4>Nosso endereço:</h4>
-        <h5>Av. Augusto Franco, 2340 - Siqueira Campos, Aracaju - SE, 49075-470</h5>
-
-        <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d4493.534695300833!2d-37.07496060314897!3d-10.925416748534433!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x71ab3f0b6497777%3A0x7b47144950f4af68!2sUNINASSAU%20-%20Aracaju!5e0!3m2!1spt-BR!2sbr!4v1695319452861!5m2!1spt-BR!2sbr" width="250" height="150" style="border:0;" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe>
-    </div>
-    
-    <div id="ajuda-rodape">
-        <ul>
-            <li><h4>AJUDA / CONTATO</h4></li>
-            <li><a href="https://api.whatsapp.com/send/?phone=5579981461514&text=Oi" target="_blank">Whatsapp</a></li>
-            <li><a href="#contatoo">contato@outlook.com</a></li>
-            <li><a href="#contatoo">GRUPO: Marcelo Lima, Victor Luiz, Filipe Menezes.</a></li>
-        </ul>
-
-        <div id="redes-sociais">
-            <a href="https://www.instagram.com/uninassau/" target="_blank"><img src="images/instagram.png" alt=""></a>
-            <a href="https://www.facebook.com/UNINASSAU/" target="_blank"><img src="images/facebook (1).png" alt=""></a>
-            <a href="https://www.youtube.com/user/uninassau" target="_blank"><img src="images/youtube.png" alt=""></a>
+<div>
+    <footer class="bg-success text-center text-lg-start text-white">
+      <!-- Grid container -->
+      <div class="container p-4">
+        <!--Grid row-->
+        <div class="row my-4">
+          <!--Grid column-->
+          <div class="col-lg-3 col-md-6 mb-4 mb-md-0">
+  
+            <div class="bg-white shadow-1-strong d-flex align-items-center justify-content-center mb-4 mx-auto" style="width: 150px; height: 150px;"><iframe src="https://www.google.com/maps/embed?pb=!1m26!1m12!1m3!1d125362.02481191064!2d-37.13312929092903!3d-10.920757477444303!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!4m11!3e6!4m3!3m2!1d-10.9158694!2d-37.0503885!4m5!1s0x71ab320262184c9%3A0x4fc7581cc119f508!2sR.%20Riachuelo%2C%20540%20-%20S%C3%A3o%20Jos%C3%A9%2C%20Aracaju%20-%20SE%2C%2049010-160!3m2!1d-10.9207685!2d-37.0507274!5e0!3m2!1spt-BR!2sbr!4v1700718183000!5m2!1spt-BR!2sbr" width="250" height="150" style="border:0;" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe>
+            </div>
+  
+            <p class="text-center">R. Riachuelo, 540 - São José, Aracaju - SE, 49010-160</p>
+  
+            <ul class="list-unstyled d-flex flex-row justify-content-center">
+              <li>
+                <a class="text-white px-2" href="#!">
+                  <i class="fab fa-facebook-square"></i>
+                </a>
+              </li>
+              <li>
+                <a class="text-white px-2" href="#!">
+                  <i class="fab fa-instagram"></i>
+                </a>
+              </li>
+              <li>
+                <a class="text-white ps-2" href="#!">
+                  <i class="fab fa-youtube"></i>
+                </a>
+              </li>
+            </ul>
+  
+          </div>
+          <!--Grid column-->
+  
+          <!--Grid column-->
+          <div class="col-lg-3 col-md-6 mb-4 mb-md-0">
+            <h5 class="text-uppercase mb-4">Animals</h5>
+  
+            <ul class="list-unstyled">
+              <li class="mb-2">
+                <a href="#!" class="text-white"><i class="fas fa-paw pe-3"></i>When your pet is missing</a>
+              </li>
+              <li class="mb-2">
+                <a href="#!" class="text-white"><i class="fas fa-paw pe-3"></i>Recently found</a>
+              </li>
+              <li class="mb-2">
+                <a href="#!" class="text-white"><i class="fas fa-paw pe-3"></i>How to adopt?</a>
+              </li>
+              <li class="mb-2">
+                <a href="#!" class="text-white"><i class="fas fa-paw pe-3"></i>Pets for adoption</a>
+              </li>
+              <li class="mb-2">
+                <a href="#!" class="text-white"><i class="fas fa-paw pe-3"></i>Material gifts</a>
+              </li>
+              <li class="mb-2">
+                <a href="#!" class="text-white"><i class="fas fa-paw pe-3"></i>Help with walks</a>
+              </li>
+              <li class="mb-2">
+                <a href="#!" class="text-white"><i class="fas fa-paw pe-3"></i>Volunteer activities</a>
+              </li>
+            </ul>
+          </div>
+          <!--Grid column-->
+  
+          <!--Grid column-->
+          <div class="col-lg-3 col-md-6 mb-4 mb-md-0">
+            <h5 class="text-uppercase mb-4">Contato</h5>
+  
+            <ul class="list-unstyled">
+              <li>
+                <p><i class="fas fa-phone pe-2"></i>Telefone: (79) 99968-7201</p>
+              </li>
+              <li>
+                <p><i class="fas fa-envelope pe-2 mb-0"></i>institutoteasergipe@gmail.com</p>
+              </li>
+            </ul>
+          </div>
+          <!--Grid column-->
         </div>
-    </div>
-</footer>
+        <!--Grid row-->
+      </div>
+      <!-- Grid container -->
+    </footer>
+</div>
 <!--Rodapé-->
+
+<!--Script do Java Script-->
+<script src="enviarform.js"></script>
+<!--Script do Java Script-->
 
 <!--Script do Bootstrap-->
 <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/js/bootstrap.bundle.min.js" integrity="sha384-C6RzsynM9kWDrMNeT87bh95OGNyZPhcTNXj1NW7RuBCsyN/o0jlpcV8Qyq46cDfL" crossorigin="anonymous"></script>
