@@ -1,0 +1,176 @@
+@import url('https://fonts.googleapis.com/css2?family=Lato:wght@700&display=swap');
+
+/* Reset Página */
+
+html, body, div, span, applet, object, iframe,
+h1, h2, h3, h4, h5, h6, p, blockquote, pre,
+a, abbr, acronym, address, big, cite, code,
+del, dfn, em, img, ins, kbd, q, s, samp,
+small, strike, strong, sub, sup, tt, var,
+b, u, i, center,
+dl, dt, dd, ol, ul, li,
+fieldset, form, label, legend,
+table, caption, tbody, tfoot, thead, tr, th, td,
+article, aside, canvas, details, embed,
+figure, figcaption, footer, header, hgroup,
+menu, nav, output, ruby, section, summary,
+time, mark, audio, video {
+	margin: 0;
+	padding: 0;
+	border: 0;
+	font-size: 100%;
+	font: inherit;
+	vertical-align: baseline;
+}
+
+/* HTML5 display-role reset for older browsers */
+article, aside, details, figcaption, figure,
+footer, header, hgroup, menu, nav, section {
+	display: block;
+}
+body {
+	line-height: 1;
+}
+ol, ul {
+	list-style: none;
+}
+blockquote, q {
+	quotes: none;
+}
+blockquote:before, blockquote:after,
+q:before, q:after {
+	content: '';
+	content: none;
+}
+table {
+	border-collapse: collapse;
+	border-spacing: 0;
+}
+
+/* Reset Página */
+
+/* Começo do CSS */
+body {
+    background-color: #1460D0;
+    background-image: url("images/background.jpg");
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    max-width: 100%;
+    position: fixed;
+    font-family: "Lato";
+    font-weight: 100;
+}
+
+h1, h2, h3, h4, h5, h6 {
+    font-family: "Lato";
+    font-size: 120%;
+    font-weight: 700;
+    margin-top: 2%;
+    margin-bottom: 3%;
+}
+
+p {
+    font-family: "Lato";
+    font-size: 90%;
+    font-weight: 500;
+    margin-top: 2%;
+    margin-bottom: 2.5%;
+}
+
+#logo a img {
+    justify-content: left;
+    width: 60%;
+}
+
+#rodape {
+    background-color: white;
+    width: 100%;
+    display: inline-flex;
+    padding-top: 20px;
+    padding-left: 10%;
+    padding-right: 10%;
+}
+
+
+#ajuda-rodape h4, li, a, p {
+    margin-top: 1.5%;
+    margin-bottom: 2%;
+}
+
+#ajuda-rodape a {
+    text-decoration: none;
+    font-size: 0.9em;
+    font-weight: 700;
+    color: #1460D0;
+}
+
+#ajuda-rodape a:hover {
+    font-size: 0.95em;
+    color: #FC9A0A;
+}
+
+#redes-sociais {
+    display: flex;
+    margin-right: 0%;
+    padding: 0;
+    margin: 0;
+}
+
+#redes-sociais a {
+    padding: 0;
+    margin: 0;
+    width: 15%;
+}
+
+#redes-sociais img {
+    width: 20%;
+}
+
+#rodape #redes-sociais {
+    padding-top: 30px;
+    padding-left: 0px;
+}
+
+#redes-sociais a img:hover {
+    transform: scale(1.5);
+    transition: 1s;
+}
+
+#corpo {
+    align-items: center;
+}
+
+#text {
+    background-color: rgba(255, 255, 255, 0.541);
+    margin-inline: 10%;
+    margin-top: 100px;
+    margin-bottom: 2%;
+    padding: 1% 2%;
+    justify-content: center;
+    text-align: left;
+    max-width: 100%;
+    font-weight: 500;
+    font-family: "Roboto";
+}
+
+#galeriaa {
+    text-align: center;
+    padding-left: 30px;
+    padding-right: 30px;
+}
+
+.galery img{
+    width: 20%;
+    display: inline-flex;
+    align-items: center;
+    margin: 0.5%;
+}
+
+.galery img:hover {
+    transform: scale(1.3);
+    transition: 0.4s;
+    cursor: pointer;
+    justify-content: center;
+    align-items: center;
+}
