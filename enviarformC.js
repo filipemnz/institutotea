@@ -1,17 +1,3 @@
-document.getElementById('telUser').addEventListener('input', function (e) {
-    let telUser = telUser.value.replace(/\D/g, ''); // Remove caracteres não numéricos
-    if (telUser.length === 11) {
-
-      // Formatação para (XX) XXXXX-XXXX
-      telUser = telUser.replace(/^(\d{2})(\d{5})(\d{4})/, '($1) $2-$3');
-    } else if (telUser.length === 10) {
-      // Formatação para (XX) XXXX-XXXX
-
-      telUser = telUser.replace(/^(\d{2})(\d{4})(\d{4})/, '($1) $2-$3');
-    }
-    telUser.value = telUser;
-});
-
 function enviar() {
     var nameUser = document.getElementById('nameUser');
     var nameUserP = document.getElementById('nameUserP');
