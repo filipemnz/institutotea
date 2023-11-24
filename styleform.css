@@ -8,7 +8,7 @@
   .formulario {
     max-width: 80%;
     margin: auto;
-    background: white;
+    background-image: url("images/backgroundForm.jpg");
     overflow: hidden;
     padding: 20px;
     margin-top: 20px;
