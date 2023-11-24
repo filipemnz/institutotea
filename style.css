@@ -110,10 +110,6 @@ h1,h2,h3 {
     border-radius: 5px;
 }
 
-#rodape {
-    bottom: 0;
-}
-
 #iframeId {
     display: flex;
     align-items: center;
