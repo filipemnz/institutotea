@@ -9,6 +9,9 @@
     max-width: 80%;
     margin: auto;
     background-image: url("images/backgroundForm.jpg");
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-attachment: fixed;
     overflow: hidden;
     padding: 20px;
     margin-top: 20px;
