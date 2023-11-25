@@ -130,7 +130,7 @@ h1,h2,h3 {
 }
 
 .noticia img {
-    width: 500px;
+    width: 100%;
     margin-top: 0.5%;
     margin-bottom: 2%;
 }
@@ -179,6 +179,14 @@ h1,h2,h3 {
 #redes-sociais img:hover {
     transform: scale(1.15);
     transition: 0.9s;
+}
+
+#testee {
+    width: 1000px;
+    height: auto;
+    margin-left: 24%;
+    margin-right: 24%;
+  
 }
 
 @media screen and (max-width:475px) {
