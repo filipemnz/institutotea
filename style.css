@@ -99,6 +99,12 @@ h1,h2,h3 {
     color: black;
 }
 
+.col {
+    flex: max-content;
+    display: grid;
+    justify-content: center;
+}
+
 .col:hover {
     transform: scale(1.1);
     transition: 0.9s;
@@ -123,7 +129,7 @@ h1,h2,h3 {
     z-index: 2;
 }
 
-.ajuste {
+.ajude {
     display: flex;
     justify-content:center;
 }
