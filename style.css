@@ -114,7 +114,13 @@ h1,h2,h3 {
     justify-content: center;
     text-align: center;
     border-radius: 5px;
+    box-shadow: 6px 5px 15px 5px #000000d6;
+    transition: all 0.5s ease-in-out;
+}
 
+.fundo-branco:hover {
+    box-shadow: none;
+    z-index: 2;
 }
 
 .ajuste {
