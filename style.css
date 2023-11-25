@@ -103,6 +103,7 @@ h1,h2,h3 {
     flex: max-content;
     display: grid;
     justify-content: center;
+    margin-bottom: 2%;
 }
 
 .col:hover {
@@ -126,6 +127,12 @@ h1,h2,h3 {
 .fundo-branco:hover {
     box-shadow: none;
     z-index: 2;
+}
+
+.noticia img {
+    width: 500px;
+    margin-top: 0.5%;
+    margin-bottom: 2%;
 }
 
 .ajude {
