@@ -8,7 +8,7 @@
   .formulario {
     max-width: 80%;
     margin: auto;
-    background-image: url("images/backgroundForm.jpg");
+    background: linear-gradient(to right, #EC0402, #FCBD0D);
     background-size: cover;
     background-repeat: no-repeat;
     background-attachment: fixed;
@@ -16,6 +16,7 @@
     padding: 20px;
     margin-top: 20px;
     margin-bottom: 20px;
+    opacity: 80%;
   }
   
   :focus{outline: none;}
